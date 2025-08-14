@@ -5,3 +5,5 @@ def hello_world():
 # Esto es una condición que verifica si el script se está ejecutando directamente
 if __name__ == "__main__":
     hello_world()
+
+# Crear un codigo para saber si es mayor o menor de edad
