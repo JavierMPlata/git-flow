@@ -22,3 +22,17 @@ def menu():
     opcion = int(input("Selecciona una opción: "))
     return opcion       
 
+# Bucle principal del menú
+while True:
+    opcion = menu()
+    if opcion == 1:
+        print("Has seleccionado la opción 1.")
+    elif opcion == 2:
+        print("Has seleccionado la opción 2.")
+    elif opcion == 3:
+        print("Has seleccionado la opción 3.")
+    elif opcion == 4:
+        print("Saliendo del programa...")
+        break
+    else:
+        print("Opción no válida. Por favor, selecciona otra opción.")
