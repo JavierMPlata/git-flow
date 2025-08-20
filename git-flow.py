@@ -36,3 +36,7 @@ while True:
         break
     else:
         print("Opción no válida. Por favor, selecciona otra opción.")
+
+# preguntar el nombre
+nombre = input("¿Cuál es tu nombre? ")
+print("Hola, " + nombre + "!")
