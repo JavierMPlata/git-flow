@@ -40,3 +40,8 @@ while True:
 # preguntar el nombre
 nombre = input("¿Cuál es tu nombre? ")
 print("Hola, " + nombre + "!")
+
+
+# imprimer del 1 al 10
+for i in range(1, 11):
+    print(i)
